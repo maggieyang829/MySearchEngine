@@ -45,4 +45,10 @@ public class DataBase {
 	public static void clear(){
 		dataCollection.clear(); 
 	}
+	
+	public String toString(){
+		String s = new String();
+		s = "the database has size: " + sizeOfDatabase();
+		return s;
+	}
 }
